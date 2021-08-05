@@ -13,9 +13,7 @@ class _MapPageState extends State<MapPage> {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        Center(
-          child: Text('Map di sini!!'),
-        ),
+        Text('Map di sini!!'),
       ],
     );
   }

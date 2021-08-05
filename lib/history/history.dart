@@ -13,22 +13,7 @@ class _HistoryPageState extends State<HistoryPage> {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        SizedBox(
-          height: 8.0,
-        ),
-        Container(
-          height: 48,
-          width: double.infinity,
-          margin: EdgeInsets.symmetric(horizontal: 16),
-          decoration: BoxDecoration(color: Colors.blue.shade600, borderRadius: BorderRadius.circular(4)),
-          child: ElevatedButton(
-            onPressed: () {},
-            child: Text(
-              'CARI',
-              style: TextStyle(color: Colors.white, fontSize: 16),
-            ),
-          ),
-        ),
+        Text('History di sini!!'),
       ],
     );
   }

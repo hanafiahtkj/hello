@@ -1,6 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:hello/menu/menu.dart';
 import 'package:hello/presensi/presensi.dart';
 import 'package:hello/map/map.dart';
 import 'package:hello/history/history.dart';
@@ -43,32 +42,14 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.white,
         appBar: AppBar(
           title: const Text('E-PRESENSI PROV KALSEL', style: TextStyle(color: Colors.black)),
-          backgroundColor: Colors.transparent,
-          actions: [
-            //Icon(Icons.menu),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 8),
-              child: IconButton(
-                icon: const Icon(Icons.menu),
-                color: Colors.black,
-                onPressed: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute<void>(
-                      builder: (context) => MenuPage(),
-                    ),
-                  );
-                },
-              ),
-            ),
-          ],
-          elevation: 0,
+          backgroundColor: Colors.white,
         ),
         body: _currentPage,
         bottomNavigationBar: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
           currentIndex: _currentIndex,
           backgroundColor: Colors.white,
-          selectedItemColor: Colors.cyan,
+          selectedItemColor: Color(0xFF1E88E5),
           unselectedItemColor: Colors.black.withOpacity(.45),
           selectedFontSize: 14,
           unselectedFontSize: 12,

@@ -14,6 +14,9 @@ class Clock extends StatelessWidget {
                 DateFormat('HH:mm:ss').format(DateTime.now()),
                 style: TextStyle(color: Colors.black87, fontSize: 42, fontWeight: FontWeight.bold),
               ),
+              SizedBox(
+                height: 8.0,
+              ),
               Text(DateFormat('EEEE, dd LLLL yyyy').format(DateTime.now()), style: TextStyle(color: Colors.black54)),
             ],
           ),
