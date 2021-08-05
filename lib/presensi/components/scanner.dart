@@ -42,7 +42,7 @@ class _ScannerButtonState extends State<ScannerButton> {
             //decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(5))),
             child: Column(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.center, children: <Widget>[
               Icon(Icons.photo_camera_outlined, size: 32.0),
-              Text('SCAN BARCODE')
+              Text('SACAN BARCODE')
             ]),
           ),
         )),
